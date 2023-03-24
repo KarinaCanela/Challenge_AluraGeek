@@ -9,27 +9,33 @@
         <link rel="stylesheet" href="css/header.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Alura | AluraGeek</title>
     </head>
 
     <body>
         <header class="headerPrincipal">
-            <div class="headerPrincipal__logo">
-                <img class="img1" src="assets/Vector.png">
-                <img class="img2" src="assets/AluraGeek.png">
-                <img class="img3" src="assets/Geek.png">
+            <div class="headerPrincipal__logo" id="logo">
+                <img class="img1" id="logo1" src="assets/Vector.png">
+                <img class="img2" id="logo2" src="assets/AluraGeek.png">
+                <img class="img3" id="logo3" src="assets/Geek.png">
             </div>
             <div class="headerPrincipal__search">
-                <input type="search" class="search" placeholder="¿Qué deseas buscar?"/>
-                <i class="fa fa-search"></i>
-              </div>
-            <div class="headerPrincipal__login">
-                <button type="submit" class="formlogin__boton">Login</button>
+                <input type="search" id="inp1" class="search" placeholder="¿Qué deseas buscar?"/>
+                <button class="btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="headerPrincipal__login" id="login">
+                <button type="submit" class="formlogin__boton" id="loginbtn">Login</button>
             </div>
         </header>
 
         <footer>
 
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
