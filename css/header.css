@@ -1,6 +1,7 @@
 .headerPrincipal {
     display: flex;
     justify-content: space-around;
+    padding: 3px;
 }
 
 .headerPrincipal__search {
