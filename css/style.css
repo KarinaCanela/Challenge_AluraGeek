@@ -57,12 +57,13 @@ table {
 
 body {
   padding: 1rem;
+  font-family: 'Dosis';
 }
 
 
 :root{
     --color--btn: #2A7AE4;
-    --cor-de-fundo: #e8e5e5;
+    --color--texto--titulo: #e8e5e5;
     --color--fondo: #FFFFFF;
     --cor-de-link: #000;
     --cor-de-box: #b5cbea;
