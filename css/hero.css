@@ -41,3 +41,19 @@
     border: 1px solid var(--color--btn);
     
 }
+
+@media (max-width:480px) {
+
+    .hero__img {
+        justify-content: space-evenly;
+    }
+
+    .hero__title {
+        font-size: 42px;
+    }
+
+    .hero__descrp {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
