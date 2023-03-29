@@ -48,3 +48,16 @@
     font-size: 1rem;
     color: var(--color--btn);
 }
+
+
+.productos__linea2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.productos__linea3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
