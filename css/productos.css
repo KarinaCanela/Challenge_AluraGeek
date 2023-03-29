@@ -1,0 +1,48 @@
+.productos {
+    padding: 2rem 3rem;
+}
+
+.productos__linea1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos__linea1--navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos__linea1--titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.productos__linea1--verTodo {
+    font-size: 1.3rem;
+    color:  var(--color--btn);
+}
+
+.productos__linea1--starwars {
+    margin-top: 1rem;
+}
+
+.productos__linea1--st1 {
+    border-radius: .5rem;
+}
+
+.productos__linea1--st1--titulo {
+    margin-top: .8rem;
+    font-size: 1rem;
+}
+
+.productos__linea1--st1--precio {
+    font-size: 1rem;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.productos__linea1--st1--link {
+    margin-top: .7rem;
+    font-size: 1rem;
+    color: var(--color--btn);
+}

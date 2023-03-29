@@ -8,8 +8,11 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/hero.css">
+        <link rel="stylesheet" href="css/productos.css">
 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/> -->
+        <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -19,10 +22,11 @@
 
     <body>
         <header class="headerPrincipal">
-            <div class="headerPrincipal__logo" id="logo">
+            <div class="headerPrincipal__logo" id="logo"><a href="#">
                 <img class="img1" id="logo1" src="assets/Vector.png">
                 <img class="img2" id="logo2" src="assets/AluraGeek.png">
                 <img class="img3" id="logo3" src="assets/Geek.png">
+            </a>
             </div>
             <div class="headerPrincipal__search">
                 <input type="search" id="inp1" class="search" placeholder="¿Qué deseas buscar?"/>
@@ -41,8 +45,35 @@
                 <p class="hero__descrp">Productos selecionados con 33% de descuento</p>
                 <button type="submit" class="hero__btn--verConsolas" id="btnConsolas">Ver consolas</button>
             </div>
-            
         </div>
+
+        <section class="productos">
+            <div class="productos__linea1">
+                <div class="productos__linea1--navegacion">
+                    <h1 class="productos__linea1--titulo">Star Wars</h1>
+                    <a class="productos__linea1--verTodo" href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <ul class="productos__linea1--starwars">
+                    <li>
+                        <img class="productos__linea1--st1" alt="Producto StarWars" src="assets/sw1.png">
+                        <p class="productos__linea1--st1--titulo">Producto XYZ</p>
+                        <p class="productos__linea1--st1--precio">$ 60.00</p>
+                        <a class="productos__linea1--st1--link">Ver producto</a>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="productos__linea2">
+
+            </div>
+            <div class="productos__linea3">
+
+            </div>
+        </section>
 
         <footer>
 
