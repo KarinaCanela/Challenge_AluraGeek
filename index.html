@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/hero.css">
         <link rel="stylesheet" href="css/productos.css">
+        <link rel="stylesheet" href="css/rodapie.css">
 
         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/> -->
         <link rel="stylesheet" 
@@ -182,9 +183,39 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             </div>
         </section>
 
-        <footer>
+        <section class="rodapie">
+            <div class="rodapie__acerca">
+                <div class="rodapie__acerca--logo" id="logo">
+                    <a href="#">
+                        <img class="img1" id="logo1" src="assets/Vector.png">
+                        <img class="img2" id="logo2" src="assets/AluraGeek.png">
+                        <img class="img3" id="logo3" src="assets/Geek.png">
+                    </a>
+                </div>
 
-        </footer>
+                <div class="rodapie__acerca--menu">
+                    <ul class="rodapie__acerca--menulist">
+                        <li class="rodapie__acerca--menuitem"><a href="#">Quienes somos</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Política de privacidad</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Programa de fidelidad</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Nuestras Tiendas</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+
+                <div class="rodapie__acerca--formulario">
+                    <p class="rodapie__acerca--formtitulo">Hable con nosotros</p>
+                    <div class="input--container">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required>
+                        <label class="input-label" for="name">Nombre</label>
+                    </div>
+                    <label for="msj">Mensaje</label>
+                    <textarea id="msj" cols="40" rows="10" class="input-padron" required></textarea>
+                </div>
+            </div>
+        </section>
+
         <script src="js/script.js"></script>
     </body>
 </html>
