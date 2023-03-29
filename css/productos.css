@@ -24,6 +24,8 @@
 
 .productos__linea1--starwars {
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .productos__linea1--st1 {
