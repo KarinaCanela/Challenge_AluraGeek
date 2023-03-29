@@ -61,3 +61,23 @@
     flex-direction: column;
     margin-top: 2rem;
 }
+
+@media (max-width:480px) {
+    .productos {
+        padding: .5rem;
+    }
+
+    .productos__linea1--starwars {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .productos__linea1--st1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    li {
+        margin-top: .5rem;
+    }
+}
