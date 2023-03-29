@@ -37,6 +37,7 @@ li {
     flex-direction: column;
     justify-content: flex-end;
     box-sizing: border-box;
+    margin-top: 1rem;
 }
   
 .input {

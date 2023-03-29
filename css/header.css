@@ -15,6 +15,7 @@
     -webkit-flex-flow: row-reverse nowrap;
         -ms-flex-flow: row-reverse nowrap;
             flex-flow: row-reverse nowrap;
+    /* width: 368px; */
 }
 .headerPrincipal__search .search {
     background-color: #f2f2f2;
