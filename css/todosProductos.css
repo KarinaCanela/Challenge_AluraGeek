@@ -1,0 +1,25 @@
+.verProductos {
+    padding: 2rem 3rem;
+}
+
+.verProductos__navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.verProductos__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.agregarproducto {
+    margin-top: 1rem;
+    color: var(--color--texto--titulo);
+    background: var(--color--btn);
+    font-family: 'Dosis';
+    padding: 16px;
+    border: 1px solid var(--color--btn);
+    font-size: 1rem;
+}

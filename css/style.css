@@ -60,6 +60,10 @@ body {
   font-family: 'Dosis';
 }
 
+a {
+    text-decoration: none;
+}
+
 
 :root{
     --color--btn: #2A7AE4;

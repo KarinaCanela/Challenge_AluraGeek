@@ -7,7 +7,7 @@
         <link rel="icon" type="image/png" href="assets/fvicn.png" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/todosProductos.css">
         <link rel="stylesheet" href="css/rodapie.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>AluraGeek | Login</title>
+        <title>AluraGeek | Productos</title>
     </head>
 
     <body>
@@ -34,24 +34,20 @@
             </div>
         </header>
 
-        <div class="login">
-            <div class="login__container">
-                <h1 class="login__container--titulo">Iniciar Sesión</h1>
-                <form>
-                    <div class="login__container--form-control">
-                        <input type="text" required>
-                        <label>Email</label>
-                    </div>
-                    <div class="login__container--form-control">
-                        <input type="password" required>
-                        <label>Password</label>
-                    </div>
-
-                    <button class="login__container--btnlogin">Login</button>
-                    <!-- <p class="text">Don't have an Account? <a href="#">Register</a></a></p> -->
-                </form>
+        <section class="verProductos">
+            <div class="verProductos__navegacion">
+                <h1 class="verProductos__titulo">Todos los productos</h1>
+                <div class="verProductos__agregar" id="agregar"> <a href="agregarProductos.html">
+                    <button type="submit" class="agregarproducto" id="addbtn">Agregar Producto</button>
+                </a>
+                </div>
             </div>
-        </div>
+
+            <ul class="verProductos__todos">
+                
+            </ul>
+        
+        </section>
 
         <section class="rodapie">
             <div class="rodapie__acerca">
@@ -89,9 +85,7 @@
         <footer>
             <p class="copyright">&copy Desarrollado por Karina Canela - 2023</p>
         </footer>
-        
-
         <script src="js/script.js"></script>
-        <script src="js/scriptlogin.js"></script>
+        <script src="js/scriptproductos.js"></script>
     </body>
 </html>
