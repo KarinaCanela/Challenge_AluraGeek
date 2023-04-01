@@ -1,7 +1,3 @@
-.verProductos {
-    /* padding: 2rem 3rem; */
-}
-
 .verProductos__navegacion {
     display: flex;
     flex-direction: row;
