@@ -10,6 +10,7 @@
 .productos__linea1--navegacion {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .productos__linea1--titulo {

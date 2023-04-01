@@ -35,7 +35,7 @@
             </div>
         </header>
 
-        <section class="verProductos">
+        <!-- <section class="verProductos">
             <div class="verProductos__navegacion">
                 <h1 class="verProductos__titulo">Todos los productos</h1>
                 <div class="verProductos__agregar" id="agregar"> <a href="agregarProductos.html">
@@ -45,7 +45,7 @@
             </div>
 
             <ul class="verProductos__lista">
-                <!-- li*18>(img+p*3)  -->
+                li*18>(img+p*3) 
                 <li>
                     <img class="productos__linea1--st1" src="assets/sw1.png" alt="Producto StarWars">
                     <p class="productos__linea1--st1--titulo">Producto XYZ</p>
@@ -159,6 +159,18 @@
 
             </ul>
                 
+        </section> -->
+
+        <div class="verProductos__navegacion">
+            <h1 class="verProductos__titulo">Todos los productos</h1>
+            <div class="verProductos__agregar" id="agregar"> <a href="agregarProductos.html">
+                <button type="submit" class="agregarproducto" id="addbtn">Agregar Producto</button>
+            </a>
+            </div>
+        </div>
+        
+        <section class="products-section" data-allProducts>
+        
         </section>
 
         <section class="rodapie">
@@ -199,6 +211,6 @@
         </footer>
         <script src="js/script.js"></script>
         <script src="js/scriptproductos.js"></script>
-        
+        <script type="module" src="js/listaProduc.js"></script>
     </body>
 </html>

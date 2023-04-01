@@ -27,9 +27,81 @@
     flex-wrap: wrap;
 }
 
+.products-section {
+    height: 100%;
+      padding: 0px 150px 0px 150px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+  
+  .producto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  } 
+  
+  .precio {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .imgproduct {
+    width: 176px;
+    height: 174px;
+    border-radius: .5rem;
+  } 
+  
+  .container {
+    position: relative;
+  }
+  
+  .container .editImage {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+  }
+  
+  .container .deleteImage {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
+  
+  .editImage,
+  .deleteImage {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .buttonDelete,
+  .buttonEdit {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
 @media (max-width:480px) {
+    .verProductos__titulo {
+        text-align: center;
+    }
+
+    .agregarproducto {
+        padding: 0.2rem;
+    }
+
     .verProductos__lista {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .products-section {
+        padding: 1rem;
+    }
+
+    .imgproduct {
+        width: 150px;
+        height: 150px;
     }
 }
