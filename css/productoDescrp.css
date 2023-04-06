@@ -11,6 +11,7 @@
 .imgDescrp {
     width: 352px;
     height: 348px;
+    border-radius: .5rem;
 }
 
 .infoDescrp {
@@ -18,4 +19,38 @@
     margin-left: 2rem;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.nombreDescrp,
+.precioDescrp {
+    font-weight: bold;
+    margin-top: .5rem;
+    font-size: 1.3rem;
+}
+
+.descrpDescrp {
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+@media (max-width:480px) {
+    .form-controlP {
+        flex-direction: column;
+    }
+
+    .imgDescrp {
+        width: 322px;
+        height: 318px; 
+    }
+
+    .infoDescrp {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:768px) { 
+    .form-controlP{
+        align-items: center;
+    }
 }

@@ -82,3 +82,9 @@
         margin-top: .5rem;
     }
 }
+
+@media (max-width:768px) { 
+    .productos__linea1--starwars {
+        flex-wrap: wrap;
+    }
+}

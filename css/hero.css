@@ -39,7 +39,10 @@
     padding: 16px;
     height: 51px;
     border: 1px solid var(--color--btn);
-    
+}
+
+.hero__btn--verConsolas a {
+    color: var(--color--texto--titulo);
 }
 
 @media (max-width:480px) {
