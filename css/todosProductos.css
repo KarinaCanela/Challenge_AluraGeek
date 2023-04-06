@@ -63,21 +63,29 @@
     top: 30px;
     right: 15px;
   }
-  
+
   .container .deleteImage {
     position: absolute;
     top: 30px;
     right: 50px;
   }
+
+  .container .verImage {
+    position: absolute;
+    top: 155px;
+    right: 15px;
+  }
   
   .editImage,
-  .deleteImage {
+  .deleteImage,
+  .verImage {
     width: 24px;
     height: 24px;
   }
   
   .buttonDelete,
-  .buttonEdit {
+  .buttonEdit,
+  .buttonVer {
     background-color: transparent;
     border-color: transparent;
   }

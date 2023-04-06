@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html  lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="assets/fvicn.png" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/hero.css">
+        <link rel="stylesheet" href="css/productos.css">
+        <link rel="stylesheet" href="css/productoDescrp.css">
+        <link rel="stylesheet" href="css/editarProducto.css">
+        <link rel="stylesheet" href="css/rodapie.css">
+
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Alura | AluraGeek</title>
+    </head>
+
+    <body>
+        <header class="headerPrincipal">
+            <div class="headerPrincipal__logo" id="logo"><a href="/index.html">
+                <img class="img1" id="logo1" src="assets/Vector.png">
+                <img class="img2" id="logo2" src="assets/AluraGeek.png">
+                <img class="img3" id="logo3" src="assets/Geek.png">
+            </a>
+            </div>
+            <div class="headerPrincipal__search">
+                <input type="search" id="inp1" class="search" placeholder="¿Qué deseas buscar?"/>
+                <button class="btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="verProductos__navegacion">
+            <h1 class="verProductos__titulo">Descripcion del producto</h1>
+        </div>
+
+        <section class="productsDescrip-section" data-allProductsDescrp>
+            <form action="#" class="form-controlP" data-formDescrp>
+                <div>
+                    <img class="imgDescrp" src="" data-urlDescrp>
+                </div>
+                <div class="infoDescrp">
+                    <label class="nombreDescrp" type="text" data-nombreDescrp></label>
+                    <label class="precioDescrp" type="text" data-precioDescrp></label>
+                    <label class="descrpDescrp" type="text" data-descrpDescrp></label>
+                </div>
+
+            </form>
+        </section>
+
+        <section class="rodapie">
+            <div class="rodapie__acerca">
+                <div class="rodapie__acerca--logo" id="logo">
+                    <a href="/index.html">
+                        <img class="img1" id="logo1" src="assets/Vector.png">
+                        <img class="img2" id="logo2" src="assets/AluraGeek.png">
+                        <img class="img3" id="logo3" src="assets/Geek.png">
+                    </a>
+                </div>
+
+                <div class="rodapie__acerca--menu">
+                    <ul class="rodapie__acerca--menulist">
+                        <li class="rodapie__acerca--menuitem"><a href="#">Quienes somos</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Política de privacidad</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Programa de fidelidad</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Nuestras Tiendas</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="rodapie__acerca--menuitem"><a href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+
+                <div class="rodapie__acerca--formulario">
+                    <p class="rodapie__acerca--formtitulo">Hable con nosotros</p>
+                    <div class="input--container">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required>
+                        <label class="input-label" for="name">Nombre</label>
+                    </div>
+                    <textarea id="msj" cols="40" rows="3" class="input-padron" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="rodapie__btn" id="btnEnviar">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="copyright">&copy Desarrollado por Karina Canela - 2023</p>
+        </footer>
+        <script type="module" src="js/editaProduc.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/scriptproductos.js"></script>
+        <script type="module" src="js/listaProduc.js"></script>
+        <script type="module" src="js/productoDescrp.js"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.productsDescrip-section {
+    display: flex;
+}
+
+.form-controlP {
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.imgDescrp {
+    width: 352px;
+    height: 348px;
+}
+
+.infoDescrp {
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+}

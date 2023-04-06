@@ -16,13 +16,16 @@ const getProducts = (name, price, imageUrl, id) => {
                 <button class="buttonEdit" type="button">
                     <img class="editImage" src="../assets/edit.png" alt="Editar" />
                 </button>
-                
                 </a>
+                
+                
             </div>
             
-            <img class="imgproduct" src="${imageUrl}" alt="img">
+            <a href=" ../verProductos.html?id=${id}">
+                <img class="imgproduct" src="${imageUrl}" alt="img">
+            </a>
             <h1 class="product-name"> ${name} </h1>
-            <p class="precio">${formatPrice(price)}</p>
+            <p class="precio">${price}</p>
         </div>
         `;
     card.innerHTML = contenido;
